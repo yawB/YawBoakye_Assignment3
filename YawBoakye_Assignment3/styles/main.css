@@ -1,0 +1,279 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-family: Myriad pro;
+	font-size: 38px;
+	color: #000;
+	padding-top: 120px;
+	margin-left: 90px;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 1030px;
+	min-width: 744px;
+	height: auto;
+}
+
+.box {
+	margin-top: 0;
+	float: right;
+	width: 119px;
+	height: 70px;
+	background-color: #000;
+}
+
+.box p {
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Myriad pro;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 90px;
+	color: #fff;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-style: italic;
+	letter-spacing: -4px;
+	word-spacing: 3px;
+}
+
+h2 {
+	font-family: Myriad pro;
+	font-size: 24px;
+	color: #000;
+}
+
+h3 {
+	font-family: Myriad pro;
+	font-size: 18px;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.content p {
+	width: 530px;
+	height: 80px;
+} 
+
+section {
+	margin-left: 25%;
+}
+
+section ul {
+	list-style-type: none; 
+	text-decoration: none;
+}
+
+section ul li {
+	text-decoration: none;
+}
+
+.content h2 {
+	margin-bottom: 10px;
+}
+
+ul.Plist li {
+	margin-left: 34px;
+}
+
+.Plist {
+	width: 580px;
+	padding-left: 0;
+}
+
+.Plist li {
+	margin-left: 17px;
+	padding: 0px;
+}
+
+.Plist li {
+	list-style-type: circle;
+	padding: 10px;
+}
+
+
+p.companyName {
+	font-style: italic;
+	height: 10px;
+	width: 530px;
+	margin-bottom: 0px; 
+}
+
+p.companyName2 {
+	font-style: italic;
+	height: 10px;
+	width: 530px;
+	margin-bottom: 0px;
+	margin-top: 35px;
+}
+
+.content ul li {
+	list-style-type: circle;
+
+	padding: 10px;
+}
+
+.content3 h2 {
+	margin-bottom: 10px;
+}
+
+.content3 ul {
+	padding-left: 0px;
+}
+
+.content3 ul li {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.EDlist ul {
+	margin-left: 0px;
+}
+
+.Elist li {
+	margin-left: 35px;
+	
+}
+
+.Elist2 li {
+	margin-left: 35px;
+
+}
+
+.EDlist ul li {
+	list-style-type: circle;
+}
+
+
+ul li.floatRightList {
+	list-style-type: none;
+}
+
+.floatRightList {
+	float: right;
+}
+
+aside {
+	float: left;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+aside ul {
+	margin-top: 5px;
+	padding-left: 10px;
+	font-size: 10px;
+	font-style: italic;
+	list-style-type: none;
+	color: #000;
+}
+
+@media only screen and (max-width: 690px) and (min-width: 320px) {
+
+	body{
+		font-size: 10px;
+		color: #fff;
+		background-image: url('../images/redeyeicon.jpg');
+	}
+
+	header {
+		color: #fff;
+	}
+
+	div#container {
+		max-width: 650px;
+	}
+
+	h2 {
+		font-size: 18px;
+		color: #fff;
+	}
+
+	h3 {
+		font-size: 12px;
+		color: #fff;
+	}
+
+	section {
+		margin-left: 30%;
+	}
+
+	div p.companyName {
+		width: 305px;
+		height: 10px;
+		margin-top: 0px;
+	}
+
+	div p.companyName2 {
+		width: 305px;
+		height: 10px;
+		margin-top: 20px;
+	}
+
+	div.content ul {
+		padding-left: 20px;
+	}
+
+	div.content ul li {
+		padding: 5px;
+		margin-left: 20px;
+	}
+
+	.content p {
+		width: 350px;
+		height: 40px;
+	} 
+
+	ul.Plist li {
+		width: 350px;
+		padding-top: 5px;
+		padding-bottom: 5px; 
+		margin-left: 15px;
+	}
+
+	#container section ul li div ul li {
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+
+	#container section ul li div img {
+		display: none;
+	}
+
+	li.floatRightList {
+		padding-right: 0px;
+	}
+
+	div.box{
+		float: left;
+		background-color: #fff;
+	}
+
+	div.box p {
+		color: #d20808;
+	}
+
+	h2#hideSkills{
+		display: none;
+	}
+
+	aside ul li {
+		color: #fff;
+	}
+
+}
